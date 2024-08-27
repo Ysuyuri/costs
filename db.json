@@ -2,11 +2,11 @@
   "projects": [
     {
       "id": "21fc",
-      "name": "dfgsdfgsd",
-      "budget": "3000",
+      "name": "teste 01",
+      "budget": "5000",
       "category": {
-        "id": "3",
-        "name": "Design"
+        "id": "2",
+        "name": "Desenvolvimento"
       },
       "cost": 0,
       "services": []
