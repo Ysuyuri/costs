@@ -1,36 +1,12 @@
 {
   "projects": [
     {
-      "id": "21fc",
-      "name": "teste 01",
-      "budget": "5000",
+      "id": "7638",
+      "name": "Abrir uma casa de programa",
+      "budget": "6000",
       "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "cost": 2100,
-      "services": [
-        {
-          "name": "teste 01",
-          "cost": "2000",
-          "description": "novo",
-          "id": "344c3088-f729-4658-bafd-3bd7bab7ca0f"
-        },
-        {
-          "name": "teste 02",
-          "cost": "100",
-          "description": "novo",
-          "id": "48925e50-c145-4b83-b13e-455ea8284576"
-        }
-      ]
-    },
-    {
-      "id": "0935",
-      "name": "teste novo projeto",
-      "budget": "20000",
-      "category": {
-        "id": "3",
-        "name": "Design"
+        "id": "4",
+        "name": "Planejamento"
       },
       "cost": 0,
       "services": []
