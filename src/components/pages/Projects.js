@@ -20,7 +20,7 @@ function Projects() {
   }
 
   useEffect(() => {
-    fetch("https://cost-api-weld.vercel.appprojects", {
+    fetch("https://cost-api-weld.vercel.app/projects", {
       method: "GET",
       headers: {
         "Content-Type": "application/json",
@@ -36,7 +36,7 @@ function Projects() {
   }, []);
 
   function removeProject(id) {
-    fetch(`https://cost-api-weld.vercel.appprojects/${id}`, {
+    fetch(`https://cost-api-weld.vercel.app/projects/${id}`, {
       method: "DELETE",
       headers: {
         "Content-Type": "application/json",

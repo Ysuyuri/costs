@@ -11,7 +11,7 @@ function NewProject() {
     project.cost = 0;
     project.services = [];
 
-    fetch("https://cost-api-weld.vercel.appprojects", {
+    fetch("https://cost-api-weld.vercel.app/projects", {
       method: "POST",
       headers: {
         "Content-type": "application/json",

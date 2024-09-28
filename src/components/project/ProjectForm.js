@@ -10,7 +10,7 @@ function ProjectForm({ handleSubmit, btnText, projectData }) {
   const [project, setProject] = useState(projectData || {});
 
   useEffect(() => {
-    fetch("https://cost-api-weld.vercel.appcategories", {
+    fetch("https://cost-api-weld.vercel.app/categories", {
       method: "GET",
       headers: {
         "Content-Type": "application/json",

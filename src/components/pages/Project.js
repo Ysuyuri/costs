@@ -22,7 +22,7 @@ function Project() {
   const [showServiceForm, setShowServiceForm] = useState(false);
 
   useEffect(() => {
-    fetch(`https://cost-api-weld.vercel.appprojects/${id}`, {
+    fetch(`https://cost-api-weld.vercel.app/projects/${id}`, {
       method: "GET",
       headers: {
         "Content-Type": "application/json",
@@ -54,7 +54,7 @@ function Project() {
 
     project.cost = newCost;
 
-    fetch(`https://cost-api-weld.vercel.appprojects/${project.id}`, {
+    fetch(`https://cost-api-weld.vercel.app/projects/${project.id}`, {
       method: "PATCH",
       headers: {
         "Content-type": "application/json",
@@ -84,7 +84,7 @@ function Project() {
       return false;
     }
 
-    fetch(`https://cost-api-weld.vercel.appprojects/${project.id}`, {
+    fetch(`https://cost-api-weld.vercel.app/projects/${project.id}`, {
       method: "PATCH",
       headers: {
         "Content-Type": "application/json",
@@ -111,7 +111,7 @@ function Project() {
     projectUpdated.services = servicesUpdated;
     projectUpdated.cost = parseFloat(projectUpdated.cost) - parseFloat(cost);
 
-    fetch(`https://cost-api-weld.vercel.appprojects/${projectUpdated.id}`, {
+    fetch(`https://cost-api-weld.vercel.app/projects/${projectUpdated.id}`, {
       method: "PATCH",
       headers: {
         "Content-Type": "application/json",
